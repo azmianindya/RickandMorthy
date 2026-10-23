@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+@import "@fontsource/sacramento";
+@import "@fontsource/caveat";
+
+@theme {
+  --font-bebas: "Metal-mania", sans-serif;
+  --font-judul: "Caveat", cursive;
+}
