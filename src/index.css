@@ -1,9 +1,28 @@
 @import "tailwindcss";
 @import "@heroui/styles";
-@import "@fontsource/sacramento";
-@import "@fontsource/caveat";
+@import "@fontsource/metal-mania";
+@import "@fontsource/caveat/700.css";
+@import "@fontsource/baloo-2/600.css";
+@import "@fontsource/baloo-2/700.css";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
 
 @theme {
-  --font-bebas: "Metal-mania", sans-serif;
-  --font-judul: "Caveat", cursive;
+  --font-metal: "Metal Mania", cursive;
+  --font-caveat: "Caveat", cursive;
+  --font-title: "Baloo 2", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-portal: #7ed957;
+  --color-portal-dark: #4f9a2e;
+  --color-ink: #1b2b3a;
+  --color-card: #2e3a4f;
+  --color-sun: #ffd166;
+  --color-paper: #f8fafc;
+  --color-coral: #f28b82;
+}
+
+body {
+  font-family: var(--font-body);
 }
